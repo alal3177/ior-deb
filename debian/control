@@ -10,5 +10,5 @@ Vcs-Browser: https://github.com/chaos/ior.git
 
 Package: ior
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, libopenmpi-dev, openmpi-bin, mime-support, libc6-i686, mawk
 Description: IOR, the benchmarking tool.
