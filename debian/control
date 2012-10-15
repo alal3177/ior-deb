@@ -1,0 +1,14 @@
+Source: ior
+Section: utils
+Priority: extra
+Maintainer: Ali Alzabarah <ali.alzabarah@cs.colorado.edu>
+Build-Depends: debhelper (>= 7.0.50~), libopenmpi-dev, openmpi-bin, mime-support, libc6-i686, mawk
+Standards-Version: 3.8.4
+Homepage: https://github.com/alal3177/ior-deb.git
+Vcs-Git: git://github.com/chaos/ior.git
+Vcs-Browser: https://github.com/chaos/ior.git
+
+Package: ior
+Architecture: all
+Depends: ${misc:Depends}
+Description: IOR, the benchmarking tool.
